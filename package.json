@@ -1,0 +1,25 @@
+{
+  "name": "serverless-offline-sqs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takahiro096041/serverless-offline-sqs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takahiro096041/serverless-offline-sqs/issues"
+  },
+  "homepage": "https://github.com/takahiro096041/serverless-offline-sqs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.285.1",
+    "figures": "^2.0.0",
+    "lodash": "^4.17.10",
+    "serverless-offline": "^3.25.6"
+  }
+}
