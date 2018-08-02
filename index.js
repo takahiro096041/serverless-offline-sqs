@@ -49,8 +49,6 @@ class ServerlessOfflineSQS {
     eventHandler(queueEvent, functionName, messages, cb) {
         if (!messages) return cb();
 
-        console.log("ここに到達していない")
-
         const streamName = this.getQueueName(queueEvent);
         this.serverless.cli.log(`${streamName} (λ: ${functionName})`);
 
